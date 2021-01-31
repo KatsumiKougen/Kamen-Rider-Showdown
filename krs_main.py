@@ -162,7 +162,7 @@ if __name__=="__main__":
 					riderStats["hp"]*=2
 					for j in ("hp","atk","def","spd","crit"):
 						riderStats[j]*=1.25
-					input("%s is destroyed!\nThank you, %s!"%(kaijin.kaijin[i]["name"],rider.rider[rt[pRider]]["title"]))
+					input("-----===== GAME OVER =====-----\n%s is destroyed!\n%s wins!"%(kaijin.kaijin[i]["name"],rider.rider[rt[pRider]]["title"]))
 			
 			#level 2
 			printlevel(1)
@@ -229,7 +229,7 @@ if __name__=="__main__":
 					riderStats["hp"]*=2
 					for j in ("hp","atk","def","spd","crit"):
 						riderStats[j]*=1.25
-					input("%s is destroyed!\nThank you, %s!"%(kaijin.kaijin[i]["name"],rider.rider[rt[pRider]]["title"]))
+					input("-----===== GAME OVER =====-----\n%s is destroyed!\n%s wins!"%(kaijin.kaijin[i]["name"],rider.rider[rt[pRider]]["title"]))
 			
 			#level 3
 			printlevel(2)
@@ -296,7 +296,7 @@ if __name__=="__main__":
 					riderStats["hp"]*=2
 					for j in ("hp","atk","def","spd","crit"):
 						riderStats[j]*=1.25
-					input("%s is destroyed!\nThank you, %s!"%(kaijin.kaijin[i]["name"],rider.rider[rt[pRider]]["title"]))
+					input("-----===== GAME OVER =====-----\n%s is destroyed!\n%s wins!"%(kaijin.kaijin[i]["name"],rider.rider[rt[pRider]]["title"]))
 	
 		print("%s has finally destroyed the forces of evil.\nBut remember, sooner or later, evil shall rise again.\nLet us do our best to defend our planet!"%(rider.rider[rt[pRider]]["title"])+"\n"*5)
 		yn=input("Would you like to play again? (Y/N)")
