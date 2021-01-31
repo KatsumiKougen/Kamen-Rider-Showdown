@@ -3,7 +3,7 @@
 ## ***Introduction***
 From the creator of **IZANAGI** - a terminal-based pixel art program, **Kamen Rider Showdown**, a Python non-curses game, introduces the legendary warriors of Tokusatsu, the Kamen Riders, to your terminal.
 
-The game includes 6 Showa Riders, each of which has a unique fighting skills and abilities. Use your strategy to fight the monsters roaming around the world and defeat them with the Rider Kick.
+The game includes 6 Showa Riders, each of which has unique fighting skills and abilities. Use your strategy to fight the monsters roaming around the world and defeat them with the Rider Kick.
 ```
   ....................,,,,,,,,,,,,,,,,,,,,,,.......             .......,        
      ..............,.,,,.,.,..,,,,,,,,,,,,,..........           .,.. ,.,,,.     
